@@ -1,0 +1,21 @@
+// @import "./theme-custom.scss";
+
+@import "carbon-components/scss/globals/scss/styles.scss";
+
+@import "carbon-atech-custom";
+// @include benderTheme()
+
+.bx--tile {
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 2px 20px;
+}
+
+.bx--btn {
+  padding: 0 10px;
+  min-width: 150px;
+  border-radius: 2px;
+}
+  
+.bx--header {
+  background-color: $interactive-02;
+}

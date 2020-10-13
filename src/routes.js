@@ -9,7 +9,6 @@ export default function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-          /* PLOP_INJECT_ROUTE */
         <Route exact path="/" component={Home} />
       </Switch>
     </BrowserRouter>
